@@ -1,0 +1,260 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "nombre": "Maria",
+            "numero_celular": "301",
+            "password": "123",
+            "url_imagen_perfil": "https://i.pinimg.com/564x/bb/df/58/bbdf58e19259db1ec57387b91e785084.jpg",
+            "flag": "",
+            "info": "amiga",
+            "fecha_conexion": 0
+          },
+          {
+            "id": 2,
+            "nombre": "Lucy",
+            "numero_celular": "302",
+            "password": "1234",
+            "url_imagen_perfil": "https://3.bp.blogspot.com/-rbGQMOUOgeU/TpyvrwcJagI/AAAAAAAAAfY/KEEOMhgO4kw/s1600/inglesas.jpg",
+            "flag": "",
+            "info": "amiga universidad",
+            "fecha_conexion": 0
+          },
+          {
+            "id": 3,
+            "nombre": "Sofia",
+            "numero_celular": "303",
+            "password": "12345",
+            "url_imagen_perfil": "https://1.bp.blogspot.com/-8dexp5XDxpw/V4gCWcsDo9I/AAAAAAAAEDc/MvzoTSZDEA0vigkXh8w2enh75qu0Rx3XQCLcB/s1600/12547641_485202588271531_311942425_n.jpg",
+            "flag": "",
+            "info": "compañera de quimica",
+            "fecha_conexion": 0
+          },
+          {
+            "id": 4,
+            "nombre": "Clara",
+            "numero_celular": "304",
+            "password": "1234567",
+            "url_imagen_perfil": "https://4.bp.blogspot.com/-8utpfwUigzw/V4gCXBnmFWI/AAAAAAAAEDg/0RWuBnh4IEYWXl4FS_VKGK6ONkovY0uNQCLcB/s1600/12547654_1716779095205234_835569602_n.jpg",
+            "flag": "",
+            "info": "prima",
+            "fecha_conexion": 0
+          },
+          {
+            "id": 5,
+            "nombre": "claudia",
+            "numero_celular": "305",
+            "password": "12345678",
+            "url_imagen_perfil": "https://4.bp.blogspot.com/-fRGQ6hNGGCs/V4gCZeP8tKI/AAAAAAAAEDs/_M_JItorqsEzIyyuVskDZ0KyYCPWWgIZQCLcB/s1600/EB2.jpg",
+            "flag": "",
+            "info": "hermana",
+            "fecha_conexion": 0
+          },
+          {
+            "id": 6,
+            "nombre": "marta",
+            "numero_celular": "306",
+            "password": "123456789",
+            "url_imagen_perfil": "https://es-static.z-dn.net/files/d8d/eb58c366ef679d98110b42ebd84cc014.jpg",
+            "flag": "",
+            "info": "hermana de mi novio",
+            "fecha_conexion": 0
+          },
+          {
+            "id": 7,
+            "nombre": "dulce",
+            "numero_celular": "307",
+            "password": "1234567891",
+            "url_imagen_perfil": "http://pm1.narvii.com/7638/7bfa159090915e3fcb72f09db04f7e1f420a76b4r1-736-736v2_uhq.jpg",
+            "flag": "",
+            "info": "hermana de mi amiga",
+            "fecha_conexion": 0
+          }
+    ],
+    "mensajes": [
+        {
+            "id": 1,
+            "idUser1": 2,
+            "idUser2": 1,
+            "conversation": [
+                {
+                    "sendBy": 2,
+                    "date": "10/08/2022",
+                    "hour": "11:02",
+                    "message": "hola como estas?"
+                },
+                {
+                    "sendBy": 1,
+                    "date": "10/08/2022",
+                    "hour": "11:10",
+                    "message": "hola muy bien y tu? estas en la universidad"
+                },
+                {
+                    "sendBy": 2,
+                    "date": "10/08/2022",
+                    "hour": "11:12",
+                    "message": "bien, estoy en la universidad salgo a las 3 pasas por mi?"
+                },
+                {
+                    "sendBy": 1,
+                    "date": "10/08/2022",
+                    "hour": "11:16",
+                    "message": "dale paso por ti por la entrada de unicentro"
+                },
+                {
+                    "sendBy": 2,
+                    "date": "10/08/2022",
+                    "hour": "11:20",
+                    "message": "gracias, me traes un abrigo esta haciendo frio, esta en mi cuarto en la parte derecha del closed"
+                },
+                {
+                    "sendBy": 1,
+                    "date": "10/08/2022",
+                    "hour": "11:25",
+                    "message": "dale ya lo busco"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "idUser1": 3,
+            "idUser2": 4,
+            "conversation": [
+                {
+                    "sendBy": 3,
+                    "date": "02/23",
+                    "hour": "9:02",
+                    "message": "¡Hola, Martina!"
+                },
+                {
+                    "sendBy": 4,
+                    "date": "02/09/2022",
+                    "hour": "9:12",
+                    "message": "Hola, Ricardo! ¡Tanto tiempo! Qué casualidad encontrarnos, ¿no?"
+                },
+                {
+                    "sendBy": 3,
+                    "date": "02/09/2022",
+                    "hour": "9:15",
+                    "message": "Sí, realmente. ¿Cómo has estado todos estos años? Pensé que estabas viviendo fuera del país."
+                },
+                {
+                    "sendBy": 4,
+                    "date": "02/09/2022",
+                    "hour": "9:17",
+                    "message": "¡Sí! Estuve muchos años viviendo en Francia, pero hace unos meses volví para quedarme. ¿Por qué no aprovechamos este encuentro y arreglamos para cenar algún día?"
+                },
+                {
+                    "sendBy": 3,
+                    "date": "02/09/2022",
+                    "hour": "9:22",
+                    "message": "Me encanta la idea. ¿El martes? ¿Qué dices?"
+                },
+                {
+                    "sendBy": 4,
+                    "date": "02/09/2022",
+                    "hour": "9:23",
+                    "message": "Perfecto, justo estoy libre. Te dejo mi número para que definamos horario y lugar, ¿te parece bien?"
+                },
+                {
+                    "sendBy": 3,
+                    "date": "02/09/2022",
+                    "hour": "9:25",
+                    "message": "Me parece genial. ¡Qué alegría volver a encontrarte! Nos vemos el martes entonces."
+                },
+                {
+                    "sendBy": 4,
+                    "date": "02/09/2022",
+                    "hour": "9:32",
+                    "message": "Lo mismo digo, tenemos mucho para ponernos al día. ¡Nos vemos pronto! ¡Adiós!"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "idUser1": 4,
+            "idUser2": 5,
+            "conversation": [
+                {
+                    "sendBy": 4,
+                    "date": "03/09/2022",
+                    "hour": "1:02",
+                    "message": "Hola María, ¿Cómo estás?"
+                },
+                {
+                    "sendBy": 5,
+                    "date": "03/09/2022",
+                    "hour": "1:20",
+                    "message": "Bien Antonio, ¿y tú como has estado?"
+                },
+                {
+                    "sendBy": 4,
+                    "date": "03/09/2022",
+                    "hour": "1:22",
+                    "message": "Bastante bien. Hace mucho que no te veía."
+                },
+                {
+                    "sendBy": 5,
+                    "date": "03/09/2022",
+                    "hour": "1:25",
+                    "message": " Estuve de viaje por Europa, conocí Londres y Manchester en Inglaterra y Tolousse y Lyon en Francia."
+                },
+                {
+                    "sendBy": 4,
+                    "date": "03/09/2022",
+                    "hour": "1:32",
+                    "message": "¿Y trajiste algún recuerdo?"
+                },
+                {
+                    "sendBy": 5,
+                    "date": "03/09/2022",
+                    "hour": "1:37",
+                    "message": "Sí, un francés."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "idUser1": 6,
+            "idUser2": 7,
+            "conversation": [
+                {
+                    "sendBy": 6,
+                    "date": "04/09/2022",
+                    "hour": "12:02",
+                    "message": "buen día Pablo ¿como estás?"
+                },
+                {
+                    "sendBy": 7,
+                    "date": "04/09/2022",
+                    "hour": "12:20",
+                    "message": "Muy bien, a Dios gracias y ¿tu?"
+                },
+                {
+                    "sendBy": 6,
+                    "date": "04/09/2022",
+                    "hour": "12:22",
+                    "message": "muy bien, aquí tratando de conseguir algunas cosas para la casa"
+                },
+                {
+                    "sendBy": 7,
+                    "date": "04/09/2022",
+                    "hour": "12:25",
+                    "message": " y ¿cuales cosas son esas?"
+                },
+                {
+                    "sendBy": 6,
+                    "date": "04/09/2022",
+                    "hour": "12:32",
+                    "message": "unas hojas de papel, colores y pintura para las paredes de la casa"
+                },
+                {
+                    "sendBy": 7,
+                    "date": "04/09/2022",
+                    "hour": "12:37",
+                    "message": "Ah Juana pero en la casa de Francisquita puedes conseguir todo eso"
+                }
+            ]
+        }
+    ]
+}

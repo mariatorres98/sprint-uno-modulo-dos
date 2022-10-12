@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcute icon" href="https://cdn-icons-png.flaticon.com/512/5968/5968841.png">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Giros</title>
+</head>
+<body>
+    <header>
+        <img src="../icons/WhatsApp_Logo_8.png" alt="" class="fondo">
+    </header>
+
+    <main>
+        <form id="form__login">
+            <h2 class="titulo">Registrarse</h2>
+            <input type="text" id="name" placeholder="Ingrese su nombre" required class="input">
+            <input type="number" id="celular" placeholder="Ingrese su número de celular" required class="input">
+            <input type="password" id="password" placeholder="Ingrese una contraseña" required class="input">
+            <input type="text" id="url" placeholder="Ingrese link con su foto" required class="input">
+            <input type="text" id="frase" placeholder="Ingrese su frase" required class="input">
+            <button type="submit" class="btn btn--submit">Registrarse</button>
+            <span>Ya tienes cuenta? <a href="../index.html">Inicia Sesión</a></span>
+        </form>
+    </main>
+    
+    <script src="../scripts/register.js" type="module"></script>
+</body>
+</html>
